@@ -2,6 +2,4 @@
 
 ### Audio Samples
 
-<iframe
-src="audio/ljs_speech_demo1.wav">
-</iframe>
+<audio src="audio/ljs_speech_demo1.wav"></audio>
