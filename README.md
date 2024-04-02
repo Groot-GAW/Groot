@@ -2,6 +2,6 @@
 
 ### Audio Samples
 
-<audio controls>
-  <source src="audio/ljs_speech_demo1.wav"> 
-</audio>
+<iframe 
+src="audio/ljs_speech_demo1.wav">
+</iframe>
