@@ -6,4 +6,4 @@
       <source id="wav1" src="audio\ljs_speech_demo1.wav">
 </audio>
 
-<audio src="C:\Users\lwz\Desktop\speech\ljs_speech_demo1.wav"></audio>
+<audio src="audio\ljs_speech_demo1.wav"></audio>
