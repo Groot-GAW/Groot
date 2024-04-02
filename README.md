@@ -2,4 +2,4 @@
 
 ### Audio Samples
 
-<audio src="audio/ljs_speech_demo1.wav"></audio>
+<audio src="audio/ljs_speech_demo1.mp3"></audio>
