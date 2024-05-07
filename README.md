@@ -35,3 +35,8 @@ You can utilize pre-trained models to assess Groot's performance at 100 bps capa
 ~~~
 python inference.py --dataset_path path_to_your_test_dataset --encoder path_to_encoder --decoder path_to_decoder --diffwave path_to_generative_model
 ~~~
+
+------
+### License
+This project is released under the MIT license. See [LICENSE]() for details.
+
