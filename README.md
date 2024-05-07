@@ -38,6 +38,8 @@ The pretrained models correspond to LJspeech dataset.
 
 Here, we provide the link to download [LJspeech](https://keithito.com/LJ-Speech-Dataset/).
 
+The LibriTTS and LibriSpeech datasets can be download from torchaudio.
+
 ------
 ### Inference
 You can utilize pre-trained models to assess Groot's performance at 100 bps capacity using the LJSpeech dataset.
