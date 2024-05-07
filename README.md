@@ -38,7 +38,7 @@ The pretrained models correspond to LJspeech dataset.
 
 Here, we provide the link to download [LJspeech](https://keithito.com/LJ-Speech-Dataset/).
 
-The LibriTTS and LibriSpeech datasets can be download from torchaudio.
+The LibriTTS and LibriSpeech datasets can be downloaded from torchaudio. That's exactly how we downloaded it.
 
 ------
 ### Inference
