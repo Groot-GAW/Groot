@@ -14,8 +14,10 @@
 ### Pretrained Models
 Downloading the pretrained models and place them into `pretrain/`.
 
-Pretrained models are downloaded at [GoogleDrive](https://drive.google.com/drive/folders/1JTxQvPA-nnhVzMTh5wwwUtMMCT-fQVPg).
+Pretrained models can be downloaded at [GoogleDrive](https://drive.google.com/drive/folders/1JTxQvPA-nnhVzMTh5wwwUtMMCT-fQVPg).
 
 ### Generative Model
-As the paper described, we provide [Diffwave]()
+As the paper described, we provide [Diffwave](https://github.com/lmnt-com/diffwave) as the diffusion model.
+
+The pretrained model of DiffWave can be downloaded at [GoogleDrive](https://drive.google.com/drive/folders/1JTxQvPA-nnhVzMTh5wwwUtMMCT-fQVPg) and please also place it into `pretrain/`.
   
