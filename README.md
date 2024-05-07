@@ -23,6 +23,15 @@ The pretrained model of DiffWave can be downloaded at [GoogleDrive](https://driv
 
 We also provide the links for [WaveGrad](https://github.com/ivanvovk/WaveGrad) and [PriorGrad](https://github.com/microsoft/NeuralSpeech/tree/master/PriorGrad-vocoder).
 
+~~~
+${Groot}
+|-- diffwave
+|-- pretrain      <-- the downloaded pretrained models
+|-- inference.py
+|-- model.py
+|-- other python codes, config, LICENSE and README files
+~~~
+
 ------
 ### Dataset:
 The pretrained models correspond to LJspeech dataset.
