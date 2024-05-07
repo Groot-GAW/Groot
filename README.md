@@ -28,3 +28,10 @@ We also provide the links for [WaveGrad](https://github.com/ivanvovk/WaveGrad) a
 The pretrained models correspond to LJspeech dataset.
 
 Here, we provide the link to download [LJspeech](https://keithito.com/LJ-Speech-Dataset/).
+
+------
+### Inference
+You can utilize pre-trained models to assess Groot's performance at 100 bps capacity using the LJSpeech dataset.
+~~~
+python inference.py --dataset_path path_to_your_test_dataset --encoder path_to_encoder --decoder path_to_decoder --diffwave path_to_generative_model
+~~~
