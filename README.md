@@ -15,4 +15,7 @@
 Downloading the pretrained models and place them into `pretrain/`.
 
 Pretrained models are downloaded at [GoogleDrive](https://drive.google.com/drive/folders/1JTxQvPA-nnhVzMTh5wwwUtMMCT-fQVPg).
+
+### Generative Model
+As the paper described, we provide [Diffwave]()
   
