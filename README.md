@@ -1,3 +1,3 @@
-## GROOT：Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis
+## GROOT：Generating Robust Watermark for\\ Diffusion-Model-Based Audio Synthesis
 
 The code coming soon...
