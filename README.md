@@ -2,8 +2,8 @@
 
 ------
 ### Installation Dependencies:
-1. Installing anaconda and python (our version == 3.8.10).
-2. Creating the new environment for Groot and install the requirements.
+1. Installing Anaconda and Python (our version == 3.8.10).
+2. Creating the new environment for Groot and installing the requirements.
    ~~~
    conda create -n Groot python=3.8
    conda activate Groot
@@ -12,7 +12,7 @@
 
 ------
 ### Pretrained Models
-Downloading the pretrained models and place them into `pretrain/`.
+Downloading the pretrained models and please place them into `pretrain/`.
 
 Pretrained models can be downloaded at [GoogleDrive](https://drive.google.com/drive/folders/1JTxQvPA-nnhVzMTh5wwwUtMMCT-fQVPg).
 
