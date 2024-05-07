@@ -38,5 +38,10 @@ python inference.py --dataset_path path_to_your_test_dataset --encoder path_to_e
 
 ------
 ### License
-This project is released under the MIT license. See [LICENSE]() for details.
+This project is released under the MIT license. See [LICENSE](https://github.com/Groot-GAW/Groot/blob/main/LICENSE) for details.
+
+------
+### Citation
+
+
 
