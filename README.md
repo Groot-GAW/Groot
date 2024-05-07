@@ -26,7 +26,7 @@ We also provide the links for [WaveGrad](https://github.com/ivanvovk/WaveGrad) a
 ~~~
 ${Groot}
 |-- diffwave
-|-- pretrain      <-- the downloaded pretrained models
+|-- pretrain        <-- the downloaded pretrained models
 |-- inference.py
 |-- model.py
 |-- other python codes, config, LICENSE and README files
