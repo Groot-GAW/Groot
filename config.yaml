@@ -1,0 +1,13 @@
+# param
+seed: 17
+sr: 22050
+
+# training settings
+watermark_length: 100
+batch_size: 2
+lr: 0.0002
+global_epoch: 10
+bce_wgt: 1.0
+mel_wgt: 0.2
+mag_wgt: 0.7
+pms_wgt: 0.1
