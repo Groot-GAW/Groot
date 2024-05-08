@@ -6,6 +6,7 @@ import math
 from dataset import transform
 from torch.autograd import Variable
 import torch.nn.functional as F
+from diffwave.params import AttrDict, params as base_params
 
 
 def generate_secret(watermark_length, batch_size=1):
