@@ -1,7 +1,8 @@
 # GROOT: Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis
 
 ------
-### :meta:Installation Dependencies:
+<a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/-Python 3.8+-blue?style=for-the-badge&logo=python&logoColor=white"></a>
+### :meta: Installation Dependencies:
 1. Installing Anaconda and Python (our version == 3.8.10).
 2. Creating the new environment for Groot and installing the requirements.
    ~~~
