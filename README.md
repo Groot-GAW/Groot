@@ -2,7 +2,7 @@
 
 ------
 <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/-Python 3.8+-blue?style=for-the-badge&logo=python&logoColor=white"></a>
-<a nref="https://img.shields.io/badge/Audio_Watermarking-Groot-green"><img src="https://img.shields.io/badge/Audio_Watermarking-Groot-green'></a>
+<a nref="https://img.shields.io/badge/Audio_Watermarking-Groot-green"><img src="https://img.shields.io/badge/Audio_Watermarking-Groot-green"></a>
 ### Installation Dependencies:
 1. Installing Anaconda and Python (our version == 3.8.10).
 2. Creating the new environment for Groot and installing the requirements.
