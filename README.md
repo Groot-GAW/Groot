@@ -51,6 +51,14 @@ python inference.py --dataset_path path_to_your_test_dataset \
 ~~~
 
 ------
+### :heartpulse:Acknowledgement
+DiffWave: :newspaper:[paper](https://arxiv.org/pdf/2009.09761) :computer:[code](https://github.com/lmnt-com/diffwave)
+
+WaveGrad: :newspaper:[paper](https://arxiv.org/pdf/2009.00713) :computer:[code](https://github.com/ivanvovk/WaveGrad)
+
+PriorGrad: :newspaper:[paper](https://arxiv.org/pdf/2106.06406) :computer:[code](https://github.com/microsoft/NeuralSpeech/tree/master/PriorGrad-vocoder)
+
+------
 ### :mortar_board:License
 This project is released under the MIT license. See [LICENSE](https://github.com/Groot-GAW/Groot/blob/main/LICENSE) for details.
 
