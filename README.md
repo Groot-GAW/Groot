@@ -35,7 +35,7 @@ ${Groot}
 ~~~
 
 ------
-### :nots:Dataset:
+### :notes:Dataset:
 The pretrained models correspond to LJspeech dataset. Here, we provide the link to download [LJspeech](https://keithito.com/LJ-Speech-Dataset/).
 
 The LibriTTS and LibriSpeech datasets can be downloaded from [torchaudio](https://pytorch.org/audio/stable/datasets.html). That's exactly how we downloaded it.
