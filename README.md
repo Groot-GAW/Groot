@@ -51,11 +51,11 @@ python inference.py --dataset_path path_to_your_test_dataset \
 ~~~
 
 ------
-### License
+### :mortar_board:License
 This project is released under the MIT license. See [LICENSE](https://github.com/Groot-GAW/Groot/blob/main/LICENSE) for details.
 
 ------
-### Citation
+### :book:Citation
 
 
 
