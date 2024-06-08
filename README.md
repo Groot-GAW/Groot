@@ -41,7 +41,7 @@ The pretrained models correspond to LJspeech dataset. Here, we provide the link 
 The LibriTTS and LibriSpeech datasets can be downloaded from [torchaudio](https://pytorch.org/audio/stable/datasets.html). That's exactly how we downloaded it.
 
 ------
-### Inference
+### :musical_note:Inference
 You can utilize pre-trained models to assess Groot's performance at 100 bps capacity using the LJSpeech dataset.
 ~~~
 python inference.py --dataset_path path_to_your_test_dataset \
