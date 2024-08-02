@@ -58,7 +58,7 @@ Kong Z, Ping W, Huang J, et al. DiffWave: A Versatile Diffusion Model for Audio 
 
 [2] WaveGrad: :newspaper:[[paper]](https://arxiv.org/pdf/2009.00713) :computer:[[code]](https://github.com/ivanvovk/WaveGrad)
 
-N. Chen, Y. Zhang, H. Zen, et al. WaveGrad: Estimating gradients for waveform generation[c]//nternational Conference on Learning Representations. 2021.
+N. Chen, Y. Zhang, H. Zen, et al. WaveGrad: Estimating Gradients for Waveform Generation[C]//International Conference on Learning Representations. 2021.
 
 [3] PriorGrad: :newspaper:[[paper]](https://arxiv.org/pdf/2106.06406) :computer:[[code]](https://github.com/microsoft/NeuralSpeech/tree/master/PriorGrad-vocoder)
 
