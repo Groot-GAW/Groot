@@ -2,7 +2,7 @@
 
 ------
 ![Static Badge](https://img.shields.io/badge/PYTHON-3.8%2B-blue)
-![Static Badge](https://img.shields.io/badge/Groot-Audio_Watermarking-blue?labelColor=%23e5f5f9&color=%2366c2a5)
+![Static Badge](https://img.shields.io/badge/Groot-Generative_Watermarking-66c2a5?labelColor=e5f5f9)
 ### :loudspeaker:Installation Dependencies:
 1. Installing Anaconda and Python (our version == 3.8.10).
 2. Creating the new environment for Groot and installing the requirements.
