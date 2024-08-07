@@ -4,6 +4,8 @@ Official implementation for the paper "GROOT: Generating Robust Watermark for Di
 
 *Weizhi Liu, Yue Li, Dongdong Lin, Hui Tian, Haizhou Li*. **China**.
 
+Audio samples are available on our [Website](https://groot-gaw.github.io/).
+
 ------
 ![Static Badge](https://img.shields.io/badge/PYTHON-3.8%2B-blue)
 ![Static Badge](https://img.shields.io/badge/Groot-Generative_Watermarking-66c2a5?labelColor=e5f5f9)
