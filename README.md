@@ -27,7 +27,7 @@ Pretrained models can be downloaded at [GoogleDrive](https://drive.google.com/dr
 ### Generative Models :link:
 As the paper described, we provide [DiffWave](https://github.com/lmnt-com/diffwave) as the diffusion model.
 
-The pretrained model of DiffWave can be downloaded at [GoogleDrive](https://drive.google.com/drive/folders/1JTxQvPA-nnhVzMTh5wwwUtMMCT-fQVPg) and please also place it into :file_folder:`pretrain/`.
+The pretrained model of DiffWave can be downloaded at [GoogleDrive](https://drive.google.com/drive/folders/1JTxQvPA-nnhVzMTh5wwwUtMMCT-fQVPg) and please also place it into file_folder:`pretrain/`.
 
 We also provide the links for [WaveGrad](https://github.com/ivanvovk/WaveGrad) and [PriorGrad](https://github.com/microsoft/NeuralSpeech/tree/master/PriorGrad-vocoder).
 
