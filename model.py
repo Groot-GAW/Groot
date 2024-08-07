@@ -1,9 +1,9 @@
 import torch.nn as nn
 
 
-class MGCNN(nn.Module):
+class MGCN(nn.Module):
     """
-    MGCNN: Modified Gated Convolutional Neural Network
+    MGCN: Modified Gated Convolutional Neural Network
     input: audio features -> (B, C, L)
     output: result -> (B, C, L)
     """
@@ -85,13 +85,13 @@ class WMDecoder(nn.Module):
 
         # ConvBlock
         self.decoder = nn.Sequential(
-            MGCNN(1, 32, kernel_size=3, stride=2, padding=1),
-            MGCNN(32, 32, kernel_size=3, stride=2, padding=1),
-            MGCNN(32, 64, kernel_size=3, stride=2, padding=1),
-            MGCNN(64, 64, kernel_size=3, stride=2, padding=1),
-            MGCNN(64, 64, kernel_size=3, stride=2, padding=1),
-            MGCNN(64, 128, kernel_size=3, stride=2, padding=1),
-            MGCNN(128, 256, kernel_size=3, stride=2, padding=1)
+            MGCN(1, 32, kernel_size=3, stride=2, padding=1),
+            MGCN(32, 32, kernel_size=3, stride=2, padding=1),
+            MGCN(32, 64, kernel_size=3, stride=2, padding=1),
+            MGCN(64, 64, kernel_size=3, stride=2, padding=1),
+            MGCN(64, 64, kernel_size=3, stride=2, padding=1),
+            MGCN(64, 128, kernel_size=3, stride=2, padding=1),
+            MGCN(128, 256, kernel_size=3, stride=2, padding=1)
         )
         # Dense Block
         self.dense = nn.Sequential(
