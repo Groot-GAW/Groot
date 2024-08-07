@@ -70,6 +70,14 @@ This project is released under the MIT license. See [LICENSE](https://github.com
 
 ------
 ### :book:Citation
+If you find the code and dataset useful in your research, please consider citing our paper:
+```
+@inproceedings{liu2024groot,
+  title={GROOT: Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis},
+  author={Liu, Weizhi and Li, Yue and Lin, Dongdong and Tian, Hui and Li, Haizhou},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  year={2024}
+}
 
 
 
