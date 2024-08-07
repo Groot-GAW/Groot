@@ -3,7 +3,7 @@
 ------
 Official code for the paper "GROOT: Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis" in ACM MM 2024.
 
-**Weizhi Liu, Yue Li, Dongdong Lin, Hui Tian, Haizhou Li**. China.
+*Weizhi Liu, Yue Li, Dongdong Lin, Hui Tian, Haizhou Li*. **China**.
 
 ------
 ![Static Badge](https://img.shields.io/badge/PYTHON-3.8%2B-blue)
