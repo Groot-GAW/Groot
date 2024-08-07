@@ -17,7 +17,7 @@ from torch_pesq import PesqLoss
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 
-def infer(arg, config):
+def infer_for_diffwave(arg, config):
     set_seed(config["seed"])
     print(f"Inferring Groot!")
 
@@ -97,4 +97,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     configs = yaml.load(open(args.config, 'r'), Loader=yaml.FullLoader)
 
-    infer(args, configs)
+    infer_for_diffwave(args, configs)
