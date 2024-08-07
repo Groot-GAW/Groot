@@ -58,9 +58,9 @@ python inference.py --dataset_path path_to_your_test_dataset \
 
 ------
 ### :heartpulse: Acknowledgement
-[1] DiffWave: :newspaper:[[paper]](https://arxiv.org/pdf/2009.09761) :computer:[[code]](https://github.com/lmnt-com/diffwave).
-[2] WaveGrad: :newspaper:[[paper]](https://arxiv.org/pdf/2009.00713) :computer:[[code]](https://github.com/ivanvovk/WaveGrad).
-[3] PriorGrad: :newspaper:[[paper]](https://arxiv.org/pdf/2106.06406) :computer:[[code]](https://github.com/microsoft/NeuralSpeech/tree/master/PriorGrad-vocoder).
+[1] **DiffWave**: :newspaper:[[paper]](https://arxiv.org/pdf/2009.09761) :computer:[[code]](https://github.com/lmnt-com/diffwave).
+[2] **WaveGrad**: :newspaper:[[paper]](https://arxiv.org/pdf/2009.00713) :computer:[[code]](https://github.com/ivanvovk/WaveGrad).
+[3] **PriorGrad**: :newspaper:[[paper]](https://arxiv.org/pdf/2106.06406) :computer:[[code]](https://github.com/microsoft/NeuralSpeech/tree/master/PriorGrad-vocoder).
 
 ------
 ### :mortar_board:License
