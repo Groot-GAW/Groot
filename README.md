@@ -1,6 +1,11 @@
 # GROOT: Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis
 
 ------
+Official code for the paper "GROOT: Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis" in ACM MM 2024.
+
+**Weizhi Liu, Yue Li, Dongdong Lin, Hui Tian, Haizhou Li**. China.
+
+------
 ![Static Badge](https://img.shields.io/badge/PYTHON-3.8%2B-blue)
 ![Static Badge](https://img.shields.io/badge/Groot-Generative_Watermarking-66c2a5?labelColor=e5f5f9)
 ### :loudspeaker:Installation Dependencies:
