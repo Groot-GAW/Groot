@@ -2,7 +2,7 @@
 
 Official implementation for the paper "GROOT: Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis" in [ACM MM 2024](https://2024.acmmm.org/).
 
-*Weizhi Liu, Yue Li, Dongdong Lin, Hui Tian, Haizhou Li*. **China**.
+*Weizhi Liu, Yue Li, Dongdong Lin, Hui Tian, Haizhou Li*. **China**. ![Image]([groot.png](https://2024.acmmm.org/img/mm_logo_nobg.9dc2d630.png))
 
 Audio samples are available on our [Website](https://groot-gaw.github.io/).
 
