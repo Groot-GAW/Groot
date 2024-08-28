@@ -13,6 +13,7 @@ import model
 from utils import *
 from pystoi import stoi
 from torch_pesq import PesqLoss
+from Attacks import Attacker
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
@@ -52,15 +53,13 @@ def infer_for_diffwave(arg, config):
     
     """ inferring """
     epoch = 0
-    acc_tot = 0
-    sto_tot = 0
-    mos_tot = 0
-    ssim_t = 0
     mos_func = PesqLoss(0.5, sample_rate=sr)
     watermark = generate_secret(watermark_length=watermark_length, batch_size=batch_size).to(device)
     dw_args = cal_param()
+    attacker = Attacker()
+    iter = tqdm(dataloader)
     
-    for mel, _ in tqdm(dataloader):
+    for mel, _ in iter:
         epoch += 1
         mel = mel.to(device)
         
@@ -70,20 +69,24 @@ def infer_for_diffwave(arg, config):
         # generating
         audio, watermarked = audio_sample(diffwave, latent_sigma, mel, device, dw_args)
 
+        # attack
+        attacked = attacker(watermarked, choice=0, flag=True)
+
         # extracting
-        extracted_watermark = decoder(watermarked.unsqueeze(1))
+        extracted_watermark = decoder(attacked)
 
         # evaluation
-        au_numpy = audio[-1, :].cpu().numpy()
-        au_cpu = audio.cpu()
-        wm_numpy = watermarked[-1, :].cpu().numpy()
-        wm_cpu = watermarked.cpu()
+        aud_numpy = audio[-1, :].cpu().numpy()
+        wmd = attacked.squeeze(1)
+        wmd_numpy = wmd[-1, :].cpu().numpy()
 
-        stoi_score = stoi(au_numpy, wm_numpy, sr)
-        mos_score = mos_func.mos(audio.cpu(), watermarked.cpu())
+        stoi_score = stoi(aud_numpy, wmd_numpy, sr)
+        mos_score = mos_func.mos(audio.cpu(), wmd.cpu())
 
         acc = cal_acc(watermark, extracted_watermark)
-        acc_tot += acc.item()
+
+        log = f"=Epoch {epoch}= STOI: {stoi_score.item():.4f}, MOSL: {mos_score.item():.4f}, ACC: {acc.item():.4f}"
+        iter.set_description(log)
 
 
 if __name__ == "__main__":
